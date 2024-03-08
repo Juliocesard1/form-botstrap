@@ -1,0 +1,52 @@
+body{
+    background-color: #f8f8f8;
+}
+
+/* form*/
+
+#form-container{
+    padding: 25px;
+    margin-top: 1.3em;
+    background-color: rgba(255, 255, 255, 0.499);
+    border-radius: 1.3em;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.644) ;
+}
+
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+   
+}
+#form-container form{
+    padding-bottom: 0;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+
+#form-container button{
+    margin: 1em;
+    text-align: center;
+    
+
+    
+}
+
+.row.align-items-center{
+    align-items: center;
+    height: 100%;
+    padding: 75px 0;
+
+}
+#form-container .form-floating> .form-control:focus~label{
+    color: #222;
+} 
+
+
+
